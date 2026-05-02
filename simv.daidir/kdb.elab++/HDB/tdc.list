@@ -1,0 +1,5 @@
+./design/my_mem.sv
+./verif/mem_if.sv
+./verif/test.sv
+./verif/top.sv
+./verif/transaction_pkg.sv

@@ -1,0 +1,68 @@
+Command: /home/st42/HW4/./simv -l run.log
+Chronologic VCS simulator copyright 1991-2022
+Contains Synopsys proprietary information.
+Compiler version T-2022.06-SP2_Full64; Runtime version T-2022.06-SP2_Full64;  May  2 18:34 2026
+*Verdi* Loading libsscore_vcs202206.so
+FSDB Dumper for VCS, Release Verdi_T-2022.06-SP2, Linux x86_64/64bit, 11/22/2022
+(C) 1996 - 2022 by Synopsys, Inc.
+*Verdi* FSDB WARNING: The FSDB file already exists. Overwriting the FSDB file may crash the programs that are using this file.
+*Verdi* : Create FSDB file 'waves.fsdb'
+*Verdi* : Begin traversing the scope (top), layer (0).
+*Verdi* : End of traversing.
+[150000] GEN  [0]: addr=0x3536  data_in=0x3c  expected=0x3c
+[150000] GEN  [1]: addr=0xe77d  data_in=0xe2  expected=0xe2
+[150000] GEN  [2]: addr=0x440b  data_in=0xdf  expected=0x1df
+[150000] GEN  [3]: addr=0xa940  data_in=0xf7  expected=0x1f7
+[150000] GEN  [4]: addr=0x79a6  data_in=0x1b  expected=0x1b
+[150000] GEN  [5]: addr=0x9db5  data_in=0xfa  expected=0xfa
+[150000] GEN  [6]: addr=0x7a4e  data_in=0x15  expected=0x115
+[150000] GEN  [7]: addr=0xc17d  data_in=0x72  expected=0x72
+[150000] GEN  [8]: addr=0x4196  data_in=0x31  expected=0x131
+[150000] GEN  [9]: addr=0x54c4  data_in=0xaa  expected=0xaa
+[750000] DRV: addr=0x3536  data_out captured=0x3c
+[1350000] DRV: addr=0xe77d  data_out captured=0xe2
+[1950000] DRV: addr=0x440b  data_out captured=0x1df
+[2550000] DRV: addr=0xa940  data_out captured=0x1f7
+[3150000] DRV: addr=0x79a6  data_out captured=0x1b
+[3750000] DRV: addr=0x9db5  data_out captured=0xfa
+[4350000] DRV: addr=0x7a4e  data_out captured=0x115
+[4950000] DRV: addr=0xc17d  data_out captured=0x72
+[5550000] DRV: addr=0x4196  data_out captured=0x131
+[6150000] DRV: addr=0x54c4  data_out captured=0xaa
+[6150000] MON  [0]: addr=0x3536  data_out=0x3c
+[6150000] data_out = 0x3c  (parity=0  data=0x3c)
+[6150000] MON  [1]: addr=0xe77d  data_out=0xe2
+[6150000] data_out = 0xe2  (parity=0  data=0xe2)
+[6150000] MON  [2]: addr=0x440b  data_out=0x1df
+[6150000] data_out = 0x1df  (parity=1  data=0xdf)
+[6150000] MON  [3]: addr=0xa940  data_out=0x1f7
+[6150000] data_out = 0x1f7  (parity=1  data=0xf7)
+[6150000] MON  [4]: addr=0x79a6  data_out=0x1b
+[6150000] data_out = 0x1b  (parity=0  data=0x1b)
+[6150000] MON  [5]: addr=0x9db5  data_out=0xfa
+[6150000] data_out = 0xfa  (parity=0  data=0xfa)
+[6150000] MON  [6]: addr=0x7a4e  data_out=0x115
+[6150000] data_out = 0x115  (parity=1  data=0x15)
+[6150000] MON  [7]: addr=0xc17d  data_out=0x72
+[6150000] data_out = 0x72  (parity=0  data=0x72)
+[6150000] MON  [8]: addr=0x4196  data_out=0x131
+[6150000] data_out = 0x131  (parity=1  data=0x31)
+[6150000] MON  [9]: addr=0x54c4  data_out=0xaa
+[6150000] data_out = 0xaa  (parity=0  data=0xaa)
+[6150000] PASS     addr=0x3536 | data_out=0x3c
+[6150000] PASS     addr=0xe77d | data_out=0xe2
+[6150000] PASS     addr=0x440b | data_out=0x1df
+[6150000] PASS     addr=0xa940 | data_out=0x1f7
+[6150000] PASS     addr=0x79a6 | data_out=0x1b
+[6150000] PASS     addr=0x9db5 | data_out=0xfa
+[6150000] PASS     addr=0x7a4e | data_out=0x115
+[6150000] PASS     addr=0xc17d | data_out=0x72
+[6150000] PASS     addr=0x4196 | data_out=0x131
+[6150000] PASS     addr=0x54c4 | data_out=0xaa
+[6150000] Total errors: 0
+$finish called from file "./verif/test.sv", line 82.
+$finish at simulation time              6150000
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 6150000 ps
+CPU Time:      0.360 seconds;       Data structure size:   0.0Mb
+Sat May  2 18:34:46 2026
